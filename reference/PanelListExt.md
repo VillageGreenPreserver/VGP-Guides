@@ -147,6 +147,16 @@ reloadscheme
 Derives from CExButton
 
 
+### CCraftingStatusDialog
+
+Derives from EditablePanel
+
+Res file: "resource/ui/CraftingStatusDialog.res"
+
+Commands | Info
+-------- | ----
+close
+forceclose
 
 
 
