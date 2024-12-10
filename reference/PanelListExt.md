@@ -32,9 +32,86 @@ Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
 itemoptionpanels_kv{} | | ControlName: CExButton
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ | Econ.Button.PresetDefaultColorFg
+ | Econ.Button.PresetArmedColorFg
+ | Econ.Button.PresetDepressedColorFg
+ | Econ.Button.PresetDefaultColorBg
+ | Econ.Button.PresetArmedColorBg
+ | Econ.Button.PresetDepressedColorBg
+ | Button.TextColor
+ | Button.ArmedTextColor
+ | Button.DepressedTextColor
+ | Button.BgColor
+ | Button.ArmedBgColor
+ | Button.DepressedBgColor
+ 
 Commands | Info
 -------- | ----
 characterloadout |
 tauntloadout |
 change* | * = slot number
-options* | `=||=`
+options* | ditto
+
+
+## CLoadoutItemOptionsPanel
+
+Derives from EditablePanel
+
+Res file: "resource/ui/ItemOptionsPanel.res"
+
+Commands | Info
+-------- | ----
+particle_button_clicked |
+particle_use_head_clicked |
+set_style |
+
+
+## CBackpackPanel
+
+Derives from CBaseLoadoutPanel
+
+Res file: "resource/ui/econ/BackpackPanel.res"
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+page_button_y | "0" | int
+page_button_x_delta | "0" | int
+page_button_y_delta | "0" | int
+page_button_per_row | "20" | int
+page_button_height | "0" | int
+pagebuttons_kv{} | | ControlName: EditablePanel
+
+
+Commands | Info
+-------- | ----
+goto_page_* | * = page number
+nextpage
+prevpage
+showbackpackitems
+showbaseitems
+canceltool
+show_explanations
+showdetails
+Context_CraftUpCollection
+Context_CraftCommonStatClock
+equipclass* | * = class number
+paint* | etc.
+market_paint*
+store_paint*
+strangepart_*
+market_strangepart_*
+
+
+Page Button Colors
+Color | Info
+----- | ----
+"TanDarker" | Empty Page FgColor
+"170 161 137 255" | Partial Page FgColor, hardcoded
+"TanLight" | Full Page FgColor
+"TFOrange" | Selected Page BgColor
+
+
+
