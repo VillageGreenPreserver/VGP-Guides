@@ -56,7 +56,7 @@ change* | * = slot number
 options* | ditto
 
 
-## CLoadoutItemOptionsPanel
+### CLoadoutItemOptionsPanel
 
 Derives from EditablePanel
 
@@ -112,6 +112,51 @@ Color | Info
 "170 161 137 255" | Partial Page FgColor, hardcoded
 "TanLight" | Full Page FgColor
 "TFOrange" | Selected Page BgColor
+
+
+## CCraftingPanel
+
+Derives from CBaseLoadoutPanel
+
+Res file: "resource/ui/CraftingPanel.res"
+
+
+Parameter | Default Value | Data Type
+--------- | ------------- | ---------
+item_crafting_offcenter_x | "0" | int
+filter_xoffset | "0" | int
+filter_ypos | "0" | int
+filter_xdelta | "0" | int
+filter_ydelta | "0" | int
+output_item_ypos | "0" | int
+recipebuttons_kv{} | | ControlName: CRecipeButton
+recipefilterbuttons_kv{} | | ControlName: CImageButton
+
+Commands | Info
+-------- | ----
+selectrecipe*
+selectfilter*
+back
+craft
+upgrade
+reloadscheme
+
+
+### CRecipeButton
+
+Derives from CExButton
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
