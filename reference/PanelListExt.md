@@ -32,7 +32,7 @@ Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
 itemoptionpanels_kv{} | | ControlName: CExButton
 
-Default scheme values
+Preset Button Colours
 Font | Color | Border
 ---- | ----  | ------
  | Econ.Button.PresetDefaultColorFg
