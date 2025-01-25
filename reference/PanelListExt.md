@@ -4,6 +4,8 @@ An extension of the panel list, for niche one off panels
 
 Derives from PropertyDialog
 
+Res file: "resource/ui/CharInfoPanel.res"
+
 Commands | Info
 -------- | ----
 back |
