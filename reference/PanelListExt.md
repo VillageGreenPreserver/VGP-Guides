@@ -1,5 +1,15 @@
 An extension of the panel list, for niche one off panels
 
+## CCharacterInfoPanel
+
+Derives from PropertyDialog
+
+Commands | Info
+-------- | ----
+back |
+*** | Anything else gets ran as a console command
+
+
 ## CBaseLoadoutPanel
 
 Derives from EditablePanel
