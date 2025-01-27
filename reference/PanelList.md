@@ -41,9 +41,9 @@ actionsignallevel | "-1" |  int | Allows nested child buttons to add their dista
 IgnoreScheme | "0" | int
 usetitlesafe | "0" | int
 ForceStereoRenderToFrameBuffer | "0" | bool
-tabPosition | "0" | int
-autoResize | "0" | int | Should the panel resize when the parent resizes, 0 = Off, 1 = Horizontal, 2 = Vertical, 3 = 
-PinCorner | "0" | int
+tabPosition | "0" | int | The order when selecting with tab
+autoResize | "0" | int | Should the panel resize if the parent resizes, 0 = Off, 1 = Horizontal, 2 = Vertical, 3 = Both
+PinCorner | "0" | int | Which corner to stick to if the parent resizes, 0 = north-west, 1 = north-east, 2 = south-west, 3 = south-east
 PinnedCornerOffSetX | NULL | int
 PinnedCornerOffSetY | NULL | int
 UnpinnedCornerOffSetX | NULL | int
