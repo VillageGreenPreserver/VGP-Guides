@@ -133,8 +133,9 @@ CloseModal |
 Minimize |
 MinimizeToSysTray |
 
-
-### GripPanel
+<details>
+<summary><h3>GripPanel</h3></summary>
+<br>
 Derives from Panel
 
 This panel can not be created
@@ -146,9 +147,11 @@ MarlettSmall | FrameGrip.Color1 |   | Frame.AutoSnapRange
 Marlett | FrameGrip.Color2
    | FrameTitleBar.DisabledTextColor
    | FrameTitleBar.DisabledBgColor
+</details>
 
-
-### FrameButton
+<details>
+<summary><h3>FrameButton</h3></summary>
+<br>
 Derives from Button
 
 This panel can not be created
@@ -161,9 +164,11 @@ Font | Color | Border | Other
    | FrameTitleButton.BgColor | TitleButtonDepressedBorder
    | FrameTitleButton.DisabledFgColor | TitleButtonDisabledBorder
    | FrameTitleButton.DisabledBgColor
+</details>
 
-
-### FrameSystemButton
+<details>
+<summary><h3>FrameSystemButton</h3></summary>
+<br>
 Derives from MenuButton
 
 This panel can not be created freely
@@ -173,7 +178,7 @@ Font | Color | Border | Other
 ---- | ----  | ------ | -----
    | FrameSystemButton.FgColor |  | FrameSystemButton.Icon
    | FrameSystemButton.BgColor | | FrameSystemButton.DisabledIcon
-
+</details>
 
 ## PropertyDialog
 Derives from Frame
@@ -213,7 +218,9 @@ DefaultVerySmall |  | PropertySheetBorder | PropertySheet.TransitionEffectTime
 Default |
 
 
-#### PageTab
+<details>
+<summary><h3>PageTab</h3></summary>
+<br>
 Derives from Button
 
 This panel can not be created
@@ -234,7 +241,8 @@ Default | PropertySheet.TextColor | TabBorder
 Commands | Info
 -------- | ----
 ShowContextMenu |
-
+</details>
+	
 ## ScrollableEditablePanel
 Derives from EditablePanel
 
