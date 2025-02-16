@@ -1712,6 +1712,18 @@ Context_JoinParty
 Context_JoinServer
 Context_SendMessage
 
+## CPlaylistEntry
+Derives from EditablePanel.
+This panel can be created.
+
+Parameter | Data Type | Info
+--------- | --------- | ----
+image_name | string
+button_token | string
+button_command | string
+desc_token | string
+matchgroup | int
+
 
 ## CMVMCriteriaPanel
 Parameter | Data Type | Info
