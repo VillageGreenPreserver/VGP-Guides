@@ -1840,7 +1840,7 @@ deployed | float
 
 
 ## CDimmerButton
-Derives from ?
+Derives from Button.
 
 This panel can not be created.
 
@@ -1848,7 +1848,7 @@ This panel can not be created.
 ## CDraggableScrollingPanel
 A panel that changes size when you mouse wheel over it.
 
-Derives from EditablePanel
+Derives from EditablePanel.
 
 This panel can be created.
 
