@@ -1863,11 +1863,30 @@ pending_children{} | |
 The following parameters need to be in pending_children{}
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
-child_name | | string
-pin | "4" | int
+child_name | | string | The fieldname of a child panel
+pin | "4" | int | Doesn't seem to have an effect for some reason
 scale | "1" | bool
 move | "1" | bool
 
+```
+"pending_children"
+{
+	"1"
+	{
+		"child_name"	"test_panel_1"
+		"pin"		"0"
+		"scale"		"1"
+		"move"		"1"
+	}
+	"2"
+	{
+		"child_name"	"test_panel_2"
+		"pin"		"0"
+		"scale"		"1"
+		"move"		"1"
+	}
+}
+```
 
 
 ## CTFItemCardPanel
