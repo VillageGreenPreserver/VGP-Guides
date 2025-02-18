@@ -55,7 +55,6 @@ navRight | NULL | string
 navToRelay | NULL | string
 navActivate | NULL | string
 navBack | NULL | string
-eatmouseinput | ? | bool
 
 Default scheme values
 Font | Color | Border
@@ -78,7 +77,6 @@ This panel can be created
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
 skip_autoresize | "0" | bool
-showtooltipswhenmousedisabled | ? | bool
 
 
 ## Frame
@@ -280,11 +278,12 @@ Derives from EditablePanel
 
 This panel can not be created
 
-Parameter | Data Type | Info
---------- | --------- | ----
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
 resize_time | "0.4" | float | How quickly to resize panel
 collapsed_height | "17" | int | How tall when collapsed
 expanded_height | "50" | int | How tall when expanded
+expand_direction | "down" | string | up, down, left, right
 
 Commands | Info
 -------- | ----
@@ -1847,11 +1846,28 @@ This panel can not be created.
 
 
 ## CDraggableScrollingPanel
-A panel that changes size when you mouse wheel over it. (wtf)
+A panel that changes size when you mouse wheel over it.
 
 Derives from EditablePanel
 
 This panel can be created.
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+min_zoom | "1.0" | float
+max_zoom | "2.0" | float
+zoom | "1.0" | float
+mouse_wheel_zoom_rate | "0.05" | float
+pending_children{} | |
+
+The following parameters need to be in pending_children{}
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+child_name | | string
+pin | "4" | int
+scale | "1" | bool
+move | "1" | bool
+
 
 
 ## CTFItemCardPanel
