@@ -70,7 +70,7 @@ reloadscheme |
 ## EditablePanel
 A panel that can have other panels inside of it
 
-Derives from Panel
+Derives from [Panel](https://github.com/VillageGreenPreserver/VGP-Guides/edit/main/reference/PanelList.md#panel)
 
 This panel can be created
 
