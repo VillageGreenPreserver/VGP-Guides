@@ -224,6 +224,7 @@ Default |
 <details>
 <summary><h3>PageTab</h3></summary>
 <br>
+	
 Parent | Creatable | Res File
 ------ |:---------:| --------
 [Button](/reference/PanelList.md#Button) | 🟥 |
@@ -406,15 +407,9 @@ ScoresContainer{} | | ControlName: EditablePanel
 
 
 ## CLadderLobbyLeaderboard
-Derives from CTFLeaderboardPanel
-
-This panel can be created
-
-Res files:
-
-"Resource/UI/econ/LobbyLeaderboard.res"
-
-"Resource/UI/LeaderboardEntryRank.res"
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CTFLeaderboardPanel](/reference/PanelList.md#CTFLeaderboardPanel) | 🟥 | Resource/UI/econ/LobbyLeaderboard.res<br>Resource/UI/LeaderboardEntryRank.res
 
 Commands | Info
 -------- | ----
@@ -424,9 +419,9 @@ local |
 
 
 ## Menu
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -437,9 +432,9 @@ Font | Color | Border
 
 
 ### MenuSeparator
-Derives from Panel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟥 |
 
 Default scheme values
 Font | Color | Border
@@ -449,9 +444,9 @@ Font | Color | Border
 
 
 ## MenuItem
-Derives from Button
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟩 |
 
 Default scheme values
 Font | Color | Border | Other
@@ -463,15 +458,15 @@ Default | Menu.BgColor |
 
 
 ## MenuButton
-Derives from Button
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟩 |
 
 
 ## MenuBar
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -483,9 +478,9 @@ Font | Color | Border
 ## Label
 A panel with text
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -518,11 +513,9 @@ Default | Label.DisabledFgColor1
 
 
 ## CExLabel
-An expanded label
-
-Derives from Label
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Label](/reference/PanelList.md#Label) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -532,9 +525,9 @@ fgcolor | "Label.TextColor" | color | Foreground colour
 ## Button
 A panel that can fire a command when activated
 
-Derives from Label
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Label](/reference/PanelList.md#Label) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -574,11 +567,9 @@ Font | Color | Border
 
 
 ## CExButton
-Expanded button
-
-Derives from Button
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -592,9 +583,9 @@ border_selected | "" | border | Border when selected == 1
 ## CExImageButton
 A button that displays an image
 
-Derives from CExButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExButton](/reference/PanelList.md#CExButton) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -612,9 +603,9 @@ SubImage{} | | ControlName: ImagePanel
 ## CImageButton
 A button that displays an image
 
-Derives from Button
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -635,9 +626,9 @@ Font | Color | Border
 ## ToggleButton
 A button that can be toggled on and off
 
-Derives from Button
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -646,9 +637,9 @@ Font | Color | Border
 
 
 ## RadioButton
-Derives from ToggleButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ToggleButton](/reference/PanelList.md#ToggleButton) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -669,9 +660,9 @@ MarlettSmall | CheckButton.BgColor
 ## CheckButton
 A button that looks like a checkbox
 
-Derives from ToggleButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ToggleButton](/reference/PanelList.md#ToggleButton) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -696,9 +687,9 @@ Font | Color | Border
 ## CvarToggleCheckButton
 A checkbutton that displays the value of a cvar
 
-Derives from CheckButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CheckButton](/reference/PanelList.md#CheckButton) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -707,17 +698,17 @@ cvar_value | "1" | bool
 
 
 ## CExCheckButton 
-Derives from CheckButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CheckButton](/reference/PanelList.md#CheckButton) | 🟩 |
 
 
 ## ExpandButton
 A button that looks like an arrow
 
-Derives from ToggleButton
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ToggleButton](/reference/PanelList.md#ToggleButton) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -730,9 +721,9 @@ A button that animates a model
 
 Animation events: idle_enabled, idle_disabled, enter_enabled, enter_disabled, exit_enabled, exit_disabled, hover_disabled
 
-Derives from CExButton
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExButton](/reference/PanelList.md#CExButton) | 🟥 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -744,9 +735,9 @@ hover | "-1" | float | Delay before animation
 ## CAutoFittingLabel
 A label that changes the font to fit in the boundaries of the panel and can change color in the middle of a string using unicode symbols
 
-Derives from Label
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Label](/reference/PanelList.md#Label) | 🟩 |
 
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -786,9 +777,9 @@ colors{}
 ## URLLabel
 A button that opens a web page
 
-Derives from Label
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Label](/reference/PanelList.md#Label) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -803,9 +794,9 @@ Font | Color | Border
 ## RichText
 A panel with text that can scroll and can use a text file for its contents
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -825,11 +816,9 @@ Font | Color | Border | Other
 
 
 ## CExRichText
-An expanded rich text
-
-Derives from RichText
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[RichText](/reference/PanelList.md#RichText) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -854,19 +843,19 @@ Font | Color | Border
 
 
 ## CRichTextWithScrollbarBorders
-Same as above but uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels
+Uses borders instead of images for image_line & image_box. "Line" & "Box" are Panels instead of ImagePanels
 
-Derives from CExRichText
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExRichText](/reference/PanelList.md#CExRichText) | 🟩 |
 
 
 ## CEconItemDetailsRichText
 Rich text control that knows how to fill itself with information that describes a specific item definition
 
-Derives from CRichTextWithScrollbarBorders
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CRichTextWithScrollbarBorders](/reference/PanelList.md#CRichTextWithScrollbarBorders) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -881,11 +870,9 @@ Font | Color | Border
 
 
 ## ScrollBar
-A scrollbar
-
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -902,27 +889,21 @@ Font | Color | Border | Other
 
 
 ## Scrollbar_Horizontal
-A horizontal scrollbar
-
-Derives from ScrollBar
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ScrollBar](/reference/PanelList.md#ScrollBar) | 🟩 |
 
 
 ## Scrollbar_Vertical
-A vertical scrollbar
-
-Derives from ScrollBar
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ScrollBar](/reference/PanelList.md#ScrollBar) | 🟩 |
 
 
 ### ScrollBarSlider
-The slider of a scrollbar
-
-Derives from Panel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟥 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -936,9 +917,9 @@ Font | Color | Border
 
 
 ### ScrollBarButton
-Derives from Button
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟥 |
 
 Default scheme values
 Font | Color | Border
@@ -953,18 +934,17 @@ Font | Color | Border
 
 ## CExScrollBar
 "A scroll bar that can have specified width" (?)
-
-Derives from ScrollBar
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ScrollBar](/reference/PanelList.md#ScrollBar) | 🟥 |
 
 
 ## ImagePanel
 A panel that displays an image
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -985,9 +965,9 @@ positionImage | "1" | bool
 ## ScalableImagePanel
 A panel that displays an image. Can have scalable corners & sides
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1002,9 +982,9 @@ draw_corner_height | "0" | int | How big to draw the corners in the Y axis
 ## CTFImagePanel
 An image panel that can be team coloured
 
-Derives from ScalableImagePanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ScalableImagePanel](/reference/PanelList.md#ScalableImagePanel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1017,9 +997,9 @@ teambg_3 | "" | material | Image on BLU
 ## CSlideshowPanel
 A panel that cycles image every 3 seconds
 
-Derives from EditablePanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1043,9 +1023,9 @@ image_* | NULL | material | replace * with number starting from 0
 ## CIconPanel
 A panel that displays an icon from scripts/mod_textures.txt
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1055,9 +1035,9 @@ scaleImage | "0" | bool | Should the icon scale with the panel
 
 
 ## CAvatarImagePanel
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1066,9 +1046,9 @@ color_outline | "Black" | color
 
 
 ## CBitmapPanel
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1079,9 +1059,9 @@ color | "255 255 255 255" | color
 ## CBitmapImagePanel
 An image that can maintain its aspect ratio when resized
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1095,9 +1075,9 @@ filtered | "0" | bool
 ## CTFLogoPanel
 A rotating TF logo
 
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1107,7 +1087,12 @@ velocity | "0.0" | float | Speed of the logo
 
 
 ## TextEntry
-A panel you can type text in. Derives from Panel.
+A panel you can type text in.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 font | font | What font to use
@@ -1138,7 +1123,12 @@ Font | Color | Border
 
 
 ## ComboBox
-A panel with a drop down list. Derives from TextEntry.
+A panel with a drop down list.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[TextEntry](/reference/PanelList.md#TextEntry) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 border_override | border | Changes the border
@@ -1150,7 +1140,9 @@ Font | Color | Border
    |   | ComboBoxBorder
 
 ### ComboBoxButton
-Derives from Button.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟥 |
 
 Default scheme values
 Font | Color | Border
@@ -1163,7 +1155,12 @@ Font | Color | Border
 
 
 ## Slider
-A panel with a movable slider. Derives from Panel.
+A panel with a movable slider.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 leftText | string | Text on the left
@@ -1184,7 +1181,12 @@ Font | Color | Border
 
 
 ## CCVarSlider
-A slider that can change a cvar. Derives from Slider
+A slider that can change a cvar.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Slider](/reference/PanelList.md#Slider) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 minvalue | float | Minimum value allowed
@@ -1195,7 +1197,12 @@ allowoutofrange
 
 
 ## ProgressBar
-A segmented progress bar. Derives from Panel.
+A segmented progress bar.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 variable | string | What to measure
@@ -1203,11 +1210,17 @@ progress | float
 
 
 ## ContinuousProgressBar
-Derives from ProgressBar.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ProgressBar](/reference/PanelList.md#ProgressBar) | 🟩 |
 
 
 ## CBuildingHealthBar
-A progress bar that changes colour when below 50%. Derives from ProgressBar.
+A progress bar that changes colour when below 50%.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ProgressBar](/reference/PanelList.md#ProgressBar) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -1218,7 +1231,11 @@ Font | Color | Border
 
 
 ## CircularProgressBar
-Derives from ProgressBar
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ProgressBar](/reference/PanelList.md#ProgressBar) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 fg_image | material | Image to use as the progress bar
@@ -1227,7 +1244,11 @@ bg_image | material | Image to use as the background
 
 
 ## RotatingProgressBar
-Derives from ProgressBar
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ProgressBar](/reference/PanelList.md#ProgressBar) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 image | material | Image that rotates
@@ -1243,7 +1264,11 @@ approach_speed | float | The speed of rotation
 
 
 ## CAccountPanel
-Derives from EditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 delta_item_start_y | int
@@ -1267,7 +1292,12 @@ negative_flip_dir | bool
 
 
 ## CModelPanel
-A panel that shows a 3D model. Derives from EditablePanel.
+A panel that shows a 3D model.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 fov | int | FOV of the model
@@ -1312,7 +1342,11 @@ skin | int
 
 
 ## CPotteryWheelPanel
-Derives from EditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 useparentbg | bool
@@ -1345,11 +1379,18 @@ exponent | float | spot
 
 
 ## CMDLPanel
-Derives from CPotteryWheelPanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CPotteryWheelPanel](/reference/PanelList.md#CPotteryWheelPanel) | 🟥 |
 
 
 ## CBaseModelPanel
-Derives from CMDLPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CMDLPanel](/reference/PanelList.md#CMDLPanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 render_texture | bool
@@ -1401,7 +1442,11 @@ skin | int
 
 
 ## CTFPlayerModelPanel
-Derives from CBaseModelPanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CBaseModelPanel](/reference/PanelList.md#CBaseModelPanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 disable_speak_event | | bool
@@ -1409,7 +1454,12 @@ customclassdata{} | Allows you to set fov, origin and angles for each class indi
 
 
 ## CItemModelPanel
-A panel that show an item. Derives from EditablePanel.
+A panel that shows an item.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 special_attributes_only | bool
@@ -1453,7 +1503,12 @@ itemmodelpanel{}
 
 
 ### CEmbeddedItemModelPanel
-Model panel inside CItemModelPanel. Derives from CBaseModelPanel.
+Model panel inside CItemModelPanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CBaseModelPanel](/reference/PanelList.md#CBaseModelPanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 force_use_model | bool
@@ -1465,7 +1520,12 @@ use_pedestal | bool
 
 
 ## CTFParticlePanel
-A panel that displays a particle effect. Derives from EditablePanel.
+A panel that displays a particle effect.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 ParticleEffects{}
@@ -1502,7 +1562,12 @@ control_point* | vector | Particle control point setting, takes 3 values. Replac
 
 
 ## CDrawingPanel
-A panel you can draw in. Derives from Panel.
+A panel you can draw in.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 linecolor | color |  What colour the line should be
@@ -1510,7 +1575,12 @@ team_colors | bool | Use team colours for the line
 
 
 ## CNavigationPanel
-A panel that has a list of buttons. The command for the buttons is select_0, select_1, select_2 etc. The commands can be aliased to something else. Derives from EditablePanel.
+A panel that has a list of buttons. The command the buttons use is select_0, select_1, select_2 etc. The commands can be aliased to something else.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 auto_layout | bool
@@ -1522,23 +1592,39 @@ selected_button_default | int
 ButtonSettings{} | Settings for the buttons to use
 Buttons{} | List of buttons
 
+## VideoPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 ## CTFVideoPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[VideoPanel](/reference/PanelList.md#VideoPanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 command | string
 start_delay | float
 end_delay | float
+loop | bool
 
 
 ## CTFArrowPanel
-Derives from Panel.
-Parameter | Data Type | Info
---------- | --------- | ----
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 
-## CTFPlayerPanel 
-Derives from EditablePanel.
+## CTFPlayerPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 HealthIcon{} | ControlName: CTFPlayerPanelGUIHealth
@@ -1548,7 +1634,11 @@ ReadyImage{} | ControlName: ImagePanel
 
 
 ## CTFTeamStatus
-Derives from EditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 team1_grow_dir | string | "west" or "east"
@@ -1564,7 +1654,11 @@ playerpanels_kv{}
 
 
 ## CTFTeamStatusPlayerPanel
-Derives from CTFPlayerPanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CTFPlayerPanel](/reference/PanelList.md#CTFPlayerPanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 color_portrait_bg_red_local_player | color
@@ -1587,7 +1681,11 @@ DeathPanel{} | ControlName: ImagePanel
 
 
 ## CTFHudPlayerHealth
-Derives from EditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 | resource/UI/HudPlayerHealth.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 HealthBonusPosAdj | int
@@ -1597,17 +1695,27 @@ HealthDeathWarningColor | color
 
 
 ## CTFSpectatorGUIHealth
-Derives from CTFHudPlayerHealth.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CTFHudPlayerHealth](/reference/PanelList.md#CTFHudPlayerHealth) | 🟥 | resource/UI/SpectatorGUIHealth.res
 
 
 
 ## CTFPlayerPanelGUIHealth
-Derives from CTFSpectatorGUIHealth.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CTFSpectatorGUIHealth](/reference/PanelList.md#CTFSpectatorGUIHealth) | 🟥 | SpectatorTournamentGUIHealth.res
 
 
 
 ## CHudBaseDeathNotice
-Derives from Panel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 LineHeight | float
@@ -1623,7 +1731,11 @@ KillStreakBackgroundColor | color
 
 
 ## CTFHudDeathNotice
-Derives from CHudBaseDeathNotice.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CHudBaseDeathNotice](/reference/PanelList.md#CHudBaseDeathNotice) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 TeamBlue | color
@@ -1634,9 +1746,10 @@ LocalPlayerColor | color
 
 
 ## CPvPRankPanel
-Derives from EditablePanel.
 
-This panel can be created.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
 
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -1651,15 +1764,17 @@ xp_source_notification_center_x | int
 
 
 ## CMiniPvPRankPanel
-Derives from CPvPRankPanel.
 
-This panel can be created.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CPvPRankPanel](/reference/PanelList.md#CPvPRankPanel) | 🟩 |
 
 
 ## CTFMatchmakingDashboard
-Derives from ExpandablePanel.
 
-This panel can not be created.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[ExpandablePanel](/reference/PanelList.md#ExpandablePanel) | 🟥 |
 
 Commands | Info
 -------- | ----
@@ -1683,13 +1798,21 @@ NotificationCleared
 
 
 ## CDashboardPartyMember
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | resource/UI/DashboardPartyMember.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 party_slot | int
 
 
 ## CSteamFriendsListPanel
-Derives from CExScrollingEditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExScrollingEditablePanel](/reference/PanelList.md#CExScrollingEditablePanel) | 🟩 | 
 
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -1698,10 +1821,14 @@ inset_x | int
 inset_y | int
 row_gap | int
 column_gap | int
+friendpanel_kv{} | 
 
 
 ### CSteamFriendPanel
-Derives from EditablePanel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 | resource/UI/SteamFriendPanel.res
 
 Commands | Info
 -------- | ----
@@ -1711,9 +1838,12 @@ Context_JoinParty
 Context_JoinServer
 Context_SendMessage
 
+
 ## CPlaylistEntry
-Derives from EditablePanel.
-This panel can be created.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | resource/ui/MainMenuPlayListEntry.res
 
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -1725,6 +1855,11 @@ matchgroup | int
 
 
 ## CMVMCriteriaPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 | Resource/UI/MvMCriteria.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 challenge_spacer | int
@@ -1744,7 +1879,12 @@ tour_number_width | int
 
 
 ## CExplanationPopup
-A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation". Derives from EditablePanel.
+A speech bubble panel. Accepts button commands "close", "nextexplanation" & "prevexplanation".
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 next_explanation | string | Next speech bubble to draw
@@ -1762,7 +1902,12 @@ end_tall | int | Tall after the expanding animation
 
 
 ## CRepeatingContainer
-A panel that automatically positions its contents. Derives from EditablePanel.
+A panel that automatically positions its contents.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 spacing_method | string | How to space the panels. METHOD_STEP spaces them by a certain value, METHOD_EVEN spaces them evenly
@@ -1800,28 +1945,44 @@ CommonSettings{} | What settings the panels should have by default
 ```
 
 ## CLoadoutPresetPanel
-Derives from EditablePanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 | Resource/UI/LoadoutPresetPanel.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 presetbutton_kv{}
 
 
 ## CCyclingAdContainerPanel
-Derives from EditablePanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | Resource/UI/econ/CyclingAdContainer.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 items{}
 
 
 ## CBaseAdPanel
-Derives from EditablePanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 present_time | float
 
 
 ## CItemAdPanel
-Derives from CBaseAdPanel
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CBaseAdPanel](/reference/PanelList.md#CBaseAdPanel) | 🟥 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 item | string
@@ -1832,7 +1993,11 @@ show_background | bool
 
 
 ## CBuildingStatusAlertTray
-Derives from Panel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 icon | string
@@ -1840,17 +2005,18 @@ deployed | float
 
 
 ## CDimmerButton
-Derives from Button.
 
-This panel can not be created.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟥 |
 
 
 ## CDraggableScrollingPanel
 A panel that changes size when you mouse wheel over it.
 
-Derives from EditablePanel.
-
-This panel can be created.
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -1890,7 +2056,12 @@ move | "1" | bool
 
 
 ## CTFItemCardPanel
-A leftover unused panel that uses Resource/UI/Econ/ItemCardPanel_Series1.res for its contents. Could be useful for a #base -esque reusable panel. Derives from EditablePanel
+A leftover unused panel.
+
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | Resource/UI/Econ/ItemCardPanel_Series1.res
+
 Parameter | Data Type | Info
 --------- | --------- | ----
 shadowoffset | int
