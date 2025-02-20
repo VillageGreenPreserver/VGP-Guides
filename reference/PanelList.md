@@ -136,6 +136,7 @@ MinimizeToSysTray |
 <details>
 <summary><h3>GripPanel</h3></summary>
 <br>
+	
 Parent | Creatable | Res File
 ------ |:---------:| --------
 [Panel](/reference/PanelList.md#Panel) | 🟥 |
@@ -152,6 +153,7 @@ Marlett | FrameGrip.Color2
 <details>
 <summary><h3>FrameButton</h3></summary>
 <br>
+	
 Parent | Creatable | Res File
 ------ |:---------:| --------
 [Button](/reference/PanelList.md#Button) | 🟥 |
@@ -169,6 +171,7 @@ Font | Color | Border | Other
 <details>
 <summary><h3>FrameSystemButton</h3></summary>
 <br>
+	
 Parent | Creatable | Res File
 ------ |:---------:| --------
 [MenuButton](/reference/PanelList.md#MenuButton) | 🟥 |
