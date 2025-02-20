@@ -70,7 +70,7 @@ reloadscheme |
 ## EditablePanel
 A panel that can have other panels inside of it
 
-Derives from [Panel](/PanelList.md#panel)
+Derives from [Panel](/reference/PanelList.md#panel)
 
 This panel can be created
 
