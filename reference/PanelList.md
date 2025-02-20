@@ -6,7 +6,9 @@ This is a list of panel types and their parameters.
 ## Panel
 The most basic panel, all other panels derive from this
 
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+N/A | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -80,9 +82,9 @@ skip_autoresize | "0" | bool
 
 
 ## Frame
-Derives from EditablePanel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
@@ -134,9 +136,9 @@ MinimizeToSysTray |
 <details>
 <summary><h3>GripPanel</h3></summary>
 <br>
-Derives from Panel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟥 |
 
 Default scheme values
 Font | Color | Border | Other
@@ -150,9 +152,9 @@ Marlett | FrameGrip.Color2
 <details>
 <summary><h3>FrameButton</h3></summary>
 <br>
-Derives from Button
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟥 |
 
 
 Default scheme values
@@ -167,9 +169,9 @@ Font | Color | Border | Other
 <details>
 <summary><h3>FrameSystemButton</h3></summary>
 <br>
-Derives from MenuButton
-
-This panel can not be created freely
+Parent | Creatable | Res File
+------ |:---------:| --------
+[MenuButton](/reference/PanelList.md#MenuButton) | 🟥 |
 
 Default scheme values
 Font | Color | Border | Other
@@ -179,9 +181,9 @@ Font | Color | Border | Other
 </details>
 
 ## PropertyDialog
-Derives from Frame
-
-This panel can not be created 
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Frame](/reference/PanelList.md#Frame) | 🟥 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
@@ -194,9 +196,9 @@ Cancel |
 Apply
 
 ### PropertySheet
-Derives from EditablePanel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
@@ -219,9 +221,9 @@ Default |
 <details>
 <summary><h3>PageTab</h3></summary>
 <br>
-Derives from Button
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Button](/reference/PanelList.md#Button) | 🟥 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
@@ -242,9 +244,9 @@ ShowContextMenu |
 </details>
 	
 ## ScrollableEditablePanel
-Derives from EditablePanel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 Parameter | Data Type
 --------- | ---------
@@ -254,9 +256,9 @@ ScrollBar{} | ControlName: ScrollBar
 ## CExScrollingEditablePanel
 A panel that can have other panels inside of it and can be scrolled
 
-Derives from EditablePanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -268,15 +270,15 @@ ScrollBar{} | | ControlName: CExScrollBar
 
 
 ## CScrollableList
-Derives from CExScrollingEditablePanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExScrollingEditablePanel](/reference/PanelList.md#CExScrollingEditablePanel) | 🟩 |
 
 
 ## CExpandablePanel
-Derives from EditablePanel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -291,17 +293,17 @@ toggle_collapse |
 
 
 ## CMatchHistoryEntryPanel
-Derives from CExpandablePanel
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CExpandablePanel](/reference/PanelList.md#CExpandablePanel) | 🟩 | resource/ui/MatchHistoryEntryPanel.res
 
-This panel can be created
 
-Res file: "resource/ui/MatchHistoryEntryPanel.res"
 
 
 ## ListPanel
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Default scheme values
 Font | Color | Border
@@ -315,9 +317,9 @@ Default | ListPanel.BgColor | ButtonDepressedBorder
 
 
 ## SectionedListPanel
-Derives from Panel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[Panel](/reference/PanelList.md#Panel) | 🟩 |
 
 Parameter | Data Type | Info
 --------- | --------- | ----
@@ -343,9 +345,9 @@ SectionedListPanel.Font | SectionedListPanel.DividerColor
 
 
 ## TFSectionedListPanel
-Derives from SectionedListPanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[SectionedListPanel](/reference/PanelList.md#SectionedListPanel) | 🟩 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -360,9 +362,9 @@ horiz_inset | "5" | int
 
 
 ## PanelListPanel
-Derives from EditablePanel
-
-This panel can be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
@@ -375,9 +377,9 @@ Font | Color | Border
 
 
 ## CBaseASyncPanel
-Derives from EditablePanel
-
-This panel can not be created
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟥 |
 
 Parameter | Default Value | Data Type | Info
 --------- | ------------- | --------- | ----
@@ -386,15 +388,10 @@ asynchandling | NULL | string | "content" or "loading", doesn't look on the pane
 
 
 ## CTFLeaderboardPanel
-Derives from CBaseASyncPanel
+Parent | Creatable | Res File
+------ |:---------:| --------
+[CBaseASyncPanel](/reference/PanelList.md#CBaseASyncPanel) | 🟥 | Resource/UI/econ/LeaderboardPanel.res<br>Resource/UI/LeaderboardSpreadEntry.res
 
-This panel can not be created
-
-Res files:
-
-"Resource/UI/econ/LeaderboardPanel.res"
-
-"Resource/UI/LeaderboardSpreadEntry.res"
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
