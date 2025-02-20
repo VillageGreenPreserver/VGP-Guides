@@ -72,7 +72,7 @@ A panel that can have other panels inside of it
 
 Parent | Creatable | Res File
 ------ | --------- | --------
-[Panel](/reference/PanelList.md#panel) | Yes |
+[Panel](/reference/PanelList.md#panel) | 🟩 |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
