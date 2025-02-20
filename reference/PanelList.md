@@ -70,9 +70,9 @@ reloadscheme |
 ## EditablePanel
 A panel that can have other panels inside of it
 
-Derives from [Panel](/reference/PanelList.md#panel)
-
-This panel can be created
+Parent | Creatable | Res File
+------ | --------- | --------
+[Panel](/reference/PanelList.md#panel) | Yes |
 
 Parameter | Default Value | Data Type
 --------- | ------------- | ---------
