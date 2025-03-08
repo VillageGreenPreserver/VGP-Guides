@@ -2054,6 +2054,33 @@ move | "1" | bool
 }
 ```
 
+## CWarLandingPanel
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | Resource/UI/Econ/WarJoinPanel.res
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+scene_anim_name | NULL | string | Name of animation that runs in SceneContainer
+
+Commands | Info
+-------- | ----
+close |
+join_war* |
+confirm_team |
+dismiss_joining_result |
+view_update_comic |
+
+
+## CWarStandingPanel
+Parent | Creatable | Res File
+------ |:---------:| --------
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | Resource/UI/Econ/WarStandingPanel.res
+
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+war_name | NULL | string | Name of war to use, crashes game if not valid
 
 ## CTFItemCardPanel
 A leftover unused panel.
