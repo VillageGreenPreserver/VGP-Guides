@@ -212,6 +212,7 @@ tabheight | "28" | int
 tabheight_small | "14" | int
 tabwidth | "64" | int
 transition_time | "0.0" | float
+yoffset | "0" | int
 tabskv{} | | Controlname: PageTab
 
 Default scheme values
