@@ -1502,6 +1502,18 @@ hide_collection_panel | bool
 hide_modifier_icons | bool
 itemmodelpanel{}
 
+Default scheme values
+Font | Color | Border
+---- | ----  | ------
+ItemFontNameSmallest |  | 
+ItemFontNameSmall |  | 
+ItemFontNameLarge |  | 
+ItemFontNameLarger |  | 
+ItemFontAttribSmallest |  | 
+ItemFontAttribSmallv2 |  | 
+ItemFontAttribLarge |  | 
+ItemFontAttribLarger |  | 
+
 
 ### CEmbeddedItemModelPanel
 Model panel inside CItemModelPanel.
