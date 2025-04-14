@@ -125,6 +125,11 @@ Color | Info
 "TanLight" | Full Page FgColor
 "TFOrange" | Selected Page BgColor
 
+Hardcoded Scheme Values
+Panel | Font | Color | Border
+----- | ---- | ----- | ------
+SortByComboBox | HudFontSmallestBold | 
+
 
 ## CCraftingPanel
 
