@@ -956,6 +956,7 @@ drawcolor | "255 255 255 255" | color | What colour to draw the image with
 drawcolor_override | "255 255 255 255" | color | Override
 scaleImage | "0" | bool | Whether to scale the image
 scaleAmount | "0.0" | float | How much to scale the image, set to 0 for full size
+scaleProportional | "0" | bool
 tileImage | "0" | bool | Repeat the image endlessly
 tileHorizontally | "0" | bool | Repeat the image endlessly in the X axis
 tileVertically | "0" | bool | Repeat the image endlessly in the Y axis
