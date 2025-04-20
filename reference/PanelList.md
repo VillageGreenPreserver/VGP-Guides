@@ -1896,11 +1896,12 @@ A speech bubble panel. Accepts button commands "close", "nextexplanation" & "pre
 
 Parent | Creatable | Res File
 ------ |:---------:| --------
-[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 |
+[EditablePanel](/reference/PanelList.md#EditablePanel) | 🟩 | resource/ui/ExplanationPopup.res
 
 Parameter | Data Type | Info
 --------- | --------- | ----
 next_explanation | string | Next speech bubble to draw
+res_file_controls | bool |
 force_close | bool | Disable the rest of the screen until this popup is closed
 callout_inparents_x | int | X position of the speech bubble's tail
 callout_inparents_y | int | Y position of the speech bubble's tail
@@ -1912,6 +1913,8 @@ end_x | int | X position after the expanding animation
 end_y | int | y position after the expanding animation
 end_wide | int | Wide after the expanding animation
 end_tall | int | Tall after the expanding animation
+explanation_title | string
+explanation_body | string
 
 
 ## CRepeatingContainer
