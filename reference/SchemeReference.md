@@ -27,6 +27,7 @@ Parameter | Line Border | Image Border | Scalable Image Border | Info
 bordertype ||||"image" or "scalable_image"<br>If missing, uses the default line border.
 inset | X ||| Order: left, top, right, bottom
 backgroundtype | X | X | X
+proportional_scalar | X | |
 Left{} | X | | | Accepts "color" & "offset"
 Top{} | X ||| -\|\|-
 Right{} | X ||| -\|\|-
