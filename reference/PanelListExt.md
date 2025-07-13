@@ -1,5 +1,24 @@
 An extension of the panel list, for niche one off panels
 
+## CHudMainMenuOverride
+
+### GameMenu
+
+Res file: "resource/GameMenu.res"
+
+Parameter | Default Value | Data Type | Info
+--------- | ------------- | --------- | ----
+label | "<unknown>" | string
+command | NULL | string
+style | "0" | int
+subimage | NULL | string
+tooltip | NULL | string
+OnlyInGame | "0" | bool
+OnlyInReplay | "0" | bool
+OnlyAtMenu | "0" | bool
+OnlyWhenVREnabled | "0" | bool
+
+
 ## CCharacterInfoPanel
 
 Derives from PropertyDialog
