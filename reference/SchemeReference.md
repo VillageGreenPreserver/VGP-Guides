@@ -28,10 +28,7 @@ bordertype ||||"image" or "scalable_image"<br>If missing, uses the default line 
 inset | X ||| How much padding text should have. Order: left, top, right, bottom
 backgroundtype | X | X | X
 proportional_scalar | X | |
-Left{} | X | | | Accepts "color" and "offset", which shortens the length of the line
-Top{} | X ||| 
-Right{} | X ||| 
-Bottom{} | X ||| 
+Left{}<br>Top{}<br>Right{}<br>Bottom{} | X | | | Accepts "color" and "offset", which shortens the length of the line
 image | | X | X
 paintfirst | | X | X | Whether or not to draw the border before the background & foreground or after.
 tiled | | X
